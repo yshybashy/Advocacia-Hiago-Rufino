@@ -1,0 +1,20 @@
+{
+  "name": "whisper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack-dev-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/pdfjs-dist": "^2.0.0",
+    "firebase": "^5.9.2",
+    "pdfjs-dist": "^2.0.943",
+    "webpack": "^3.1.0",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
